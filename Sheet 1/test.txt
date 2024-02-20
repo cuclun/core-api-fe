@@ -1,0 +1,6 @@
+C0001,Tran Thi Thanh Cuc,18/06/2001,0774565149,cuc@gmail.com,0,1,java,,,,,,
+C0002,Tran Sau,12/03/1965,0123456771,sau@gmail.com,0,2,c++,,,,,,
+C0003,Nguyen Thi Dong,02/03/1970,0123456772,dong@gmail.com,1,,,12/02/2000,good,sp,,,
+C0004,Tran Thi Thu Giang,07/08/1997,0123456773,giang@gmail.com,1,,,04/05/2019,exellent,spkt,,,
+C0005,Tran Thi Thanh Mai,05/04/2003,0123456774,mai@gmail.com,2,,,,,,it,5,bk
+C0006,Nguyen Quang Hoang,09/03/1995,0123456775,hoang@gmail.com,2,,,,,,math,7,kt

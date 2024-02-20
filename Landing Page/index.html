@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="./libraries/bootstrap-4.6.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./libraries/bootstrap-4.6.2-dist/js/bootstrap.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/custom_carousel.css">
+    <title>Trang chủ</title>
+</head>
+
+<body>
+    <div id="main">
+        <div class="header d-md-flex justify-content-between align-items-center d-none">
+            <div class="header__logo d-flex d-lg-flex">
+                <div class="logo__img mr-2">
+                    <img src="./assets/images/Logo.png" alt="">
+                </div>
+                <div class="d-flex logo__name flex-column align-items-left justify-content-center ">
+                    <p class="logo__name--vietnamese mb-0">SỞ CÔNG THƯƠNG THÀNH PHỐ HỒ CHÍ MINH</p>
+                    <p class="logo__name--english mb-0">HO CHI MINH CITY DEPARTMENT OF INDUSTRY AND TRADE</p>
+                </div>
+            </div>
+            <div class="header__button">
+                <div><a href="#" class="header__button--register">TẠO TÀI KHOẢN</a></div>
+                <div><a href="#" class="header__button--login">ĐĂNG NHẬP</a></div>
+            </div>
+        </div>
+        <nav class="header navbar navbar-expand-md navbar-dark d-flex d-md-none">
+            <div class="header__logo d-flex d-md-flex">
+                <div class="logo__img mr-2">
+                    <img src="./assets/images/Logo.png" alt="">
+                </div>
+                <div class="d-flex logo__name flex-column align-items-left justify-content-center ">
+                    <p class="logo__name--vietnamese mb-0">SỞ CÔNG THƯƠNG THÀNH PHỐ HỒ CHÍ MINH</p>
+                    <p class="logo__name--english mb-0">HO CHI MINH CITY DEPARTMENT OF INDUSTRY AND TRADE</p>
+                </div>
+            </div>
+            <button class="navbar-toggler outline-none" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse header-collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="header__button--register nav-link">TẠO TÀI KHOẢN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="header__button--login nav-link">ĐĂNG NHẬP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">TRANG CHỦ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">NỘP BÁO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">TRA CỨU BÁO CÁO</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="navigation d-md-flex justify-content-md-between d-none">
+            <nav class="navbar navbar-expand-lg navigation__nav pl-lg-0">
+                <ul class="navbar-nav d-flex flex-row my-lg-2">
+                    <li class="nav-item active">
+                        <a class="nav-link mr-3 navigation__nav--index p-lg-0" href="#">TRANG CHỦ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mr-3 navigation__nav--submit p-lg-0" href="#">NỘP BÁO CÁO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mr-3 navigation__nav--lookup p-lg-0" href="#">TRA CỨU BÁO CÁO</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="navigation__icon--search">
+                <form class="form-inline my-lg-2 my-lg-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                        <path
+                            d="M10.5 20.75C4.85 20.75 0.25 16.15 0.25 10.5C0.25 4.85 4.85 0.25 10.5 0.25C16.15 0.25 20.75 4.85 20.75 10.5C20.75 16.15 16.15 20.75 10.5 20.75ZM10.5 1.75C5.67 1.75 1.75 5.68 1.75 10.5C1.75 15.32 5.67 19.25 10.5 19.25C15.33 19.25 19.25 15.32 19.25 10.5C19.25 5.68 15.33 1.75 10.5 1.75Z"
+                            fill="#004572" />
+                        <path
+                            d="M21 21.7509C20.81 21.7509 20.62 21.6809 20.47 21.5309L18.47 19.5309C18.3305 19.3898 18.2523 19.1993 18.2523 19.0009C18.2523 18.8025 18.3305 18.6121 18.47 18.4709C18.76 18.1809 19.24 18.1809 19.53 18.4709L21.53 20.4709C21.82 20.7609 21.82 21.2409 21.53 21.5309C21.38 21.6809 21.19 21.7509 21 21.7509Z"
+                            fill="#004572" />
+                    </svg>
+                </form>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="./assets/images/image8.png" alt="">
+        </div>
+        <div class="body">
+            <div class="activities-news">
+                <div class="activity-news__heading heading d-flex justify-content-between my-lg-2 mx-lg-0">
+                    <h3 class="heading__title">TIN HOẠT ĐỘNG CỦA CƠ SỞ</h3>
+                    <a class="heading__button" href="#">XEM THÊM</a>
+                </div>
+                <div class="activities-news__content row">
+                    <div class="main-news col-lg-8">
+                        <img class="main-news__img position-relative" width="100%" style="object-fit: cover;"
+                            src="./assets/images/image 9.png" alt="">
+                        <div class="main-news__info position-absolute">
+                            <h5 class="main-news__info--title">Phát động giải thưởng “Thương hiệu vàng thành phố Hồ Chí
+                                Minh” lần thứ tư năm 2023</h5>
+                            <p class="main-news__info--date mb-0">22/09/2023</p>
+                        </div>
+                    </div>
+                    <div class="other-news col-lg-4 mt-3 mt-lg-0">
+                        <ul class="other-news__list d-lg-flex flex-lg-column">
+                            <li class="other-news__item">
+                                <p class="other-news__item--date">22/09/2023</p>
+                                <a href="#" class="other-news__item--title">Hội nghị Đối thoại giữa Doanh nghiệp lĩnh
+                                    vực thương mại điện tử và Chính quyền Thành phố</a>
+                            </li>
+                            <li class="other-news__item">
+                                <p class="other-news__item--date">22/09/2023</p>
+                                <a href="#" class="other-news__item--title">Hội nghị Đối thoại giữa Doanh nghiệp lĩnh
+                                    vực thương mại điện tử và Chính quyền Thành phố</a>
+                            </li>
+                            <li class="other-news__item">
+                                <p class="other-news__item--date">22/09/2023</p>
+                                <a href="#" class="other-news__item--title">Hội nghị Đối thoại giữa Doanh nghiệp lĩnh
+                                    vực thương mại điện tử và Chính quyền Thành phố</a>
+                            </li>
+                            <li class="other-news__item">
+                                <p class="other-news__item--date">22/09/2023</p>
+                                <a href="#" class="other-news__item--title">Hội nghị Đối thoại giữa Doanh nghiệp lĩnh
+                                    vực thương mại điện tử và Chính quyền Thành phố</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="general row">
+                <div class="general-list col-lg-8">
+                    <div class="news-events">
+                        <div class="news-events__heading heading d-flex justify-content-between mx-lg-0">
+                            <h3 class="heading__title">TIN TỨC VÀ SỰ KIỆN</h3>
+                            <div class="heading__move">
+                                <button class="border-0" style="background-color: initial;"
+                                    href="#carouselExampleControls" role="button" data-slide="prev">
+                                    <i class="fa-solid fa-chevron-left mr-2"></i>
+                                </button>
+                                <button class="border-0" style="background-color: initial;"
+                                    href="#carouselExampleControls" role="button" data-slide="next">
+                                    <i class="fa-solid fa-chevron-right default"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="card col-md-4 news-events__content--item border-0">
+                                        <img class="card-img-top" src="./assets/images/image 27.png"
+                                            alt="Card image cap">
+                                        <div class="card-body p-lg-0 mt-lg-3">
+                                            <p class="card-text">Hội nghị Đối thoại giữa Doanh nghiệp lĩnh vực thương
+                                                mại
+                                                điện tử và Chính quyền Thành phố</p>
+                                            <p class="card-date">22/09/2023</p>
+                                        </div>
+                                    </div>
+                                    <div class="card col-md-4 news-events__content--item border-0">
+                                        <img class="card-img-top" src="./assets/images/image 27.png"
+                                            alt="Card image cap">
+                                        <div class="card-body p-lg-0 mt-lg-3">
+                                            <p class="card-text">Hội nghị Đối thoại giữa Doanh nghiệp lĩnh vực thương
+                                                mại
+                                                điện tử và Chính quyền Thành phố</p>
+                                            <p class="card-date">22/09/2023</p>
+                                        </div>
+                                    </div>
+                                    <div class="card col-md-4 news-events__content--item border-0">
+                                        <img class="card-img-top" src="./assets/images/image 27.png"
+                                            alt="Card image cap">
+                                        <div class="card-body p-lg-0 mt-lg-3">
+                                            <p class="card-text">Hội nghị Đối thoại giữa Doanh nghiệp lĩnh vực thương
+                                                mại
+                                                điện tử và Chính quyền Thành phố</p>
+                                            <p class="card-date">22/09/2023</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="card col-md-4 news-events__content--item border-0">
+                                        <img class="card-img-top" src="./assets/images/image 27.png"
+                                            alt="Card image cap">
+                                        <div class="card-body p-lg-0 mt-lg-3">
+                                            <p class="card-text">Hội nghị Đối thoại giữa Doanh nghiệp lĩnh vực thương
+                                                mại
+                                                điện tử và Chính quyền Thành phố</p>
+                                            <p class="card-date">22/09/2023</p>
+                                        </div>
+                                    </div>
+                                    <div class="card col-md-4 news-events__content--item border-0">
+                                        <img class="card-img-top" src="./assets/images/image 27.png"
+                                            alt="Card image cap">
+                                        <div class="card-body p-lg-0 mt-lg-3">
+                                            <p class="card-text">Hội nghị Đối thoại giữa Doanh nghiệp lĩnh vực thương
+                                                mại
+                                                điện tử và Chính quyền Thành phố</p>
+                                            <p class="card-date">22/09/2023</p>
+                                        </div>
+                                    </div>
+                                    <div class="card col-md-4 news-events__content--item border-0">
+                                        <img class="card-img-top" src="./assets/images/image 27.png"
+                                            alt="Card image cap">
+                                        <div class="card-body p-lg-0 mt-lg-3">
+                                            <p class="card-text">Hội nghị Đối thoại giữa Doanh nghiệp lĩnh vực thương
+                                                mại
+                                                điện tử và Chính quyền Thành phố</p>
+                                            <p class="card-date">22/09/2023</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="image-gallery">
+                            <div
+                                class="image-gallery__heading heading row d-lg-flex justify-content-between my-lg-2 mx-lg-0">
+                                <h3 class="heading__title">THƯ VIỆN HÌNH ẢNH</h3>
+                            </div>
+                            <div class="img-list">
+                                <img class="img-item" width="100%" src="./assets/images/image 28.png" alt="">
+                                <img class="img-item" width="100%" src="./assets/images/image 28.png" alt="">
+                                <img class="img-item" width="100%" src="./assets/images/image 28.png" alt="">
+                                <img class="img-item" width="100%" src="./assets/images/image 28.png" alt="">
+                            </div>
+                        </div>
+                        <div class="video-gallery">
+                            <div
+                                class="video-gallery__heading heading row d-lg-flex justify-content-between my-lg-2 mx-lg-0">
+                                <h3 class="heading__title">THƯ VIỆN VIDEO</h3>
+                            </div>
+                            <div class="video-list">
+                                <div class="video-item video-item--playing position-relative">
+                                    <img width="100%" src="./assets/images/image 29.png" alt="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="position-absolute" width="76"
+                                        height="76" viewBox="0 0 76 76" fill="none">
+                                        <circle opacity="0.5" cx="38" cy="38" r="38" fill="white" />
+                                        <circle cx="38" cy="38" r="34" fill="white" />
+                                        <path
+                                            d="M48.1818 37.0328C49.2727 37.6849 49.2727 39.3151 48.1818 39.9672L33.4545 48.7705C32.3636 49.4226 31 48.6075 31 47.3033L31 29.6967C31 28.3925 32.3636 27.5774 33.4545 28.2295L48.1818 37.0328Z"
+                                            fill="#004572" />
+                                    </svg>
+                                </div>
+                                <img class="video-item" width="100%" src="./assets/images/image 28.png" alt="">
+                                <img class="video-item" width="100%" src="./assets/images/image 28.png" alt="">
+                                <img class="video-item" width="100%" src="./assets/images/image 28.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="general-banner col-lg-4 mt-md-5 mt-lg-0">
+                    <img src="./assets/images/image 10.png" alt="" class="banner-item" width="100%">
+                    <img src="./assets/images/image 11.png" alt="" class="banner-item" width="100%">
+                    <img src="./assets/images/image 12.png" alt="" class="banner-item" width="100%">
+                    <img src="./assets/images/image 13.png" alt="" class="banner-item" width="100%">
+                    <img src="./assets/images/image 14.png" alt="" class="banner-item" width="100%">
+                    <img src="./assets/images/image 15.png" alt="" class="banner-item" width="100%">
+                    <img src="./assets/images/image 16.png" alt="" class="banner-item" width="100%">
+                    <img src="./assets/images/image 17.png" alt="" class="banner-item" width="100%">
+                    <img src="./assets/images/image 18.png" alt="" class="banner-item" width="100%">
+                    <img src="./assets/images/image 19.png" alt="" class="banner-item" width="100%">
+                    <img src="./assets/images/image 20.png" alt="" class="banner-item" width="100%">
+                    <img src="./assets/images/image 21.png" alt="" class="banner-item" width="100%">
+                    <img src="./assets/images/image 22.png" alt="" class="banner-item" width="100%">
+                </div>
+                <div class="banner-footer">
+                    <div class="banner-footer__list">
+                        <img class="banner-footer__item" width="100%" src="./assets/images/image 23.png" alt="">
+                        <img class="banner-footer__item" width="100%" src="./assets/images/image 24.png" alt="">
+                        <img class="banner-footer__item" width="100%" src="./assets/images/image 25.png" alt="">
+                        <img class="banner-footer__item banner-footer__item--final" width="100%"
+                            src="./assets/images/image 26.png" alt="">
+                    </div>
+                </div>
+                <div class="total-activities text-center">
+                    <p>Tính tới ngày 11/22/2023 có tổng cộng <span>3342</span> lượt đánh giá.</p>
+                    <p class="mb-0">Trong đó, số lượt đánh giá cao nhất là <span>3299/3342</span> đánh giá.</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="contact-info row">
+                <div class="contact-info__content col-lg-8 col-12">
+                    <div class="contact-info__content--logo pb-lg-4">
+                        <h6 class="pb-lg-1">CỔNG THÔNG TIN ĐIỆN TỬ</h6>
+                        <h5>SỞ CÔNG THƯƠNG THÀNH PHỐ HỒ CHÍ MINH</h5>
+                    </div>
+                    <div class="contact-info__content--info">
+                        <table class="address">
+                            <tbody>
+                                <tr>
+                                    <td>Địa chỉ (Cơ sở 1)</td>
+                                    <td>163 Hai Bà Trưng, Quận 3, Thành phố Hồ Chí Minh</td>
+                                </tr>
+                                <tr>
+                                    <td>Địa chỉ (Cơ sở 2)</td>
+                                    <td>61 Lý Tự Trọng, Quận 1, Thành phố Hồ Chí Minh</td>
+                                </tr>
+                                <tr>
+                                    <td>Website</td>
+                                    <td>http://congthuong.hochiminhcity.gov.vn</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="contact-info__contact col-lg-4 align-self-end mt-lg-0 mt-3 col-12">
+                    <h6 class="pb-lg-4">LIÊN HỆ</h6>
+                    <div class="contact-info__content--info">
+                        <table class="contact">
+                            <tbody>
+                                <tr>
+                                    <td><i class="fa-solid fa-phone pr-lg-2"></i> Điện thoại</td>
+                                    <td>(028) 38.222.311</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa-solid fa-fax pr-lg-2"></i> Fax</td>
+                                    <td>(028) 38.222.311</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa-solid fa-envelope pr-lg-2"></i> Email</td>
+                                    <td>sct@tphcm.gov.vn</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="certification text-center">
+                Giấy phép số 17/GP-TTĐT do Sở Thông tin và Truyền thông
+                thành phố Hồ Chí Minh cấp ngày 18 tháng 03 năm 2019
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+            integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+            crossorigin="anonymous"></script>
+        <script src="./assets/js/custom_carousel.js"></script>
+</body>
+
+</html>
